@@ -1,0 +1,120 @@
+.header a, a:hover {
+	color: white;
+	text-decoration: none;
+
+}
+
+.header h1 {
+	letter-spacing: 15px;
+	font-size: 600%;
+	font-family: 'Bad Script', cursive; 
+}
+
+.header, navbar-inverse {
+	background-color: #66CDAA;
+	border: none;
+}
+
+.nav-pills>li>a:hover {
+	background-color: #346270;
+}
+
+.navbar-inverse {
+	background-color: #66CDAA;
+	border-color: #66CDAA;
+}
+
+.nav-pills a {
+	color: white;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 120%;
+}
+
+
+.wrapper {
+	min-height: 100%;
+
+}
+
+.img-block {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.carousel-inner  {
+	width: 80%;
+}
+
+.carousel {
+	width: 80%;
+}
+
+
+
+html, body {
+   height: 100%;
+}
+
+footer {
+	color: white;
+	background-color: #66CDAA;
+	padding: 17px 08px 0;
+	border-top: 1px solid #000;
+}
+
+footer a {
+	color: white;
+	font-family: 'Permanent Marker', cursive;
+}
+
+
+
+footer p {
+	margin-right: 20px;
+}
+
+.list-justify {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around; /*space-between*/
+}
+
+@media (max-width: 767px) {
+	.nav-pills>li {
+		float: none;
+	}
+
+	.nav-pills {
+		text-align: center;
+	}
+
+	.header h1 {
+		letter-spacing: 5px;
+		font-size: 380%;
+	}
+
+	.header {
+		text-align: center;
+	}
+
+	.clear {
+		clear: both;
+		height: 63px;
+	}
+
+.wrapper {
+	min-height: 100%;
+
+}
+
+html, body {
+		height: 100%;
+}
+
+.footer {
+		color: white;
+		background-color: #4169E1;
+		border-top: 1px solid #000;
+	}
